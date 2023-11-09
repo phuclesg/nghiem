@@ -622,19 +622,19 @@ https://templatemo.com/tm-538-digital-trend
   color: darkorange;
   text-decoration: underline;
 }
-.testimonial h2 {
+.testimonial h2, .testimonial p{
   color: #ffffff;
 }
 .contact-image img{
   border-radius: 50%;
 }
-/* .testimonial {
+.testimonial {
   background-image: url(../images/bg.jpg);
 }
 .testimonial-bg {
   background: rgba(0, 0, 0, 0.7);
   padding: 20px;
-} */
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
