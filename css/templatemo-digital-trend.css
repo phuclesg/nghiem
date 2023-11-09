@@ -339,17 +339,19 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .hero {
-    position: relative;
+    position: absolute;
+    top: 100px;
+    left: 200px;
     padding: 10em 0;
     overflow: hidden;
     width: auto;
   }
 
-  .hero-bg {
-    /* background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%); */
+  /* .hero-bg {
+    background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%);
     background-image: url(../images/banner.jpg);
     background-size: cover;
-  }
+  } */
 
   .hero-image {
     position: relative;
@@ -375,14 +377,10 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .project-info {
-    background: var(--white-color);
+    background: var(--primary-color);
     border-radius: var(--border-radius-small);
-    position: absolute;
-    bottom: 10px;
-    right: 32px;
-    left: 32px;
-    width: 90%;
-    padding: 10px 30px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
   }
 
   .project-info small {
@@ -393,7 +391,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .project-info a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
 
   .project-info .project-icon {
@@ -630,6 +628,7 @@ https://templatemo.com/tm-538-digital-trend
 }
 .testimonial {
   background-image: url(../images/bg.jpg);
+  background-size: cover;
 }
 .testimonial-bg {
   background: rgba(0, 0, 0, 0.7);
@@ -639,7 +638,7 @@ https://templatemo.com/tm-538-digital-trend
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (min-width: 1200px) {
+  /* @media screen and (min-width: 1200px) {
 
     .about-info h2 {
       max-width: 70%;
@@ -659,7 +658,9 @@ https://templatemo.com/tm-538-digital-trend
     .hero {
       padding-top: 14em;
     }
-
+    .top-banner {
+      max-width:990px ;
+    }
     .hero-text {
       bottom: 2em;
     }
@@ -722,9 +723,15 @@ https://templatemo.com/tm-538-digital-trend
     .footer-link li {
       margin-left: 0;
     }
+    .top-banner {
+      width:767px ;
+    }
   }
-@media  screen and (max-width:570px) {
-  .top-banner img {
-    width: 430px;
+@media  screen and (max-width:430px) {
+  .hero-bg {
+    max-width: 430px;
   }
-}
+  .top-banner {
+   width: 430px ;
+  }
+} */

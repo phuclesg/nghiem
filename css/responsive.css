@@ -1,0 +1,39 @@
+@media screen and (max-width:1399px) {
+  
+}
+/* ipad pro */
+@media screen and (max-width:1199px){
+      
+}
+/* tablet */
+@media screen and (max-width:990px){
+    .top-banner img {
+        max-width: 100%;
+    }
+}
+/* phone rotate */
+@media screen and (max-width:760px){
+    .top-banner img {
+        max-width: 100%;
+    }
+}
+/* phone */
+@media screen and (max-width:570px){
+    .project-info {
+        margin-bottom: 30px;
+    }
+    .top-banner img {
+        max-width: 100%;
+    }
+    .hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10em 0;
+        width: auto;
+    }
+    .hero h1 {
+        display: none;
+    }
+
+}
