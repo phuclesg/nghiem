@@ -622,6 +622,9 @@ https://templatemo.com/tm-538-digital-trend
   color: darkorange;
   text-decoration: underline;
 }
+.testimonial h2 {
+  color: #ffffff;
+}
 .contact-image img{
   border-radius: 50%;
 }
