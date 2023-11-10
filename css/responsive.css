@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 @media screen and (max-width:1399px) {
   
 }
@@ -22,6 +27,13 @@
         top: 200px;
         left: 200px;
       }
+      .hero h1 {
+        display: none;
+    }
+    .custom-btn {
+        font-size: 15px;
+        padding: 4px 6px;
+    }
 }
 /* phone rotate */
 @media screen and (max-width:760px){
@@ -33,6 +45,9 @@
         top: 100px;
         left: 100px;
       }
+    .hero h1 {
+        display: none;
+    }
 }
 /* phone */
 @media screen and (max-width:570px){
@@ -44,18 +59,20 @@
     }
     .hero {
         position: absolute;
-        top: 100px;
-        left: 20px;
+        top: 176px;
+        right: -170px;
       }
     .hero h1 {
         font-size: 30px;
+        display: none;
     }
  
     .navbar a {
         font-size: 25px;
     }
     .custom-btn {
-        font-size: 20px;
+        font-size: 15px;
+        padding: 4px 6px;
     }
     .call-me {
         position: fixed;
@@ -67,7 +84,7 @@
         width: 50px;
         border-radius: 50%;
         background-color: rgb(255, 60, 46);
-        line-height: 50px;
+        line-height: 40px;
       }
       .call-me .btn-call-me img {
         max-height: 25px;
