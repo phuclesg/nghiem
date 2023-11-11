@@ -392,7 +392,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .project-info a {
     color: var(--secondary-color);
-    background-color: #df0303;
+    background-color: var(--primary-color);
     padding: 12px;
     border-radius: 5px;
   }
