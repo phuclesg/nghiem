@@ -392,6 +392,9 @@ https://templatemo.com/tm-538-digital-trend
 
   .project-info a {
     color: var(--secondary-color);
+    background-color: #da3030;
+    padding: 12px;
+    border-radius: 5px;
   }
 
   .project-info .project-icon {
@@ -401,10 +404,7 @@ https://templatemo.com/tm-538-digital-trend
     color: #da3030;
     font-size: 22px;
   }
-  .project-info span {
-    background-color: #da3030;
-    padding: 15px;
-  }
+
   .project-icon {
     position: absolute;
     right: 30px;
@@ -661,9 +661,12 @@ https://templatemo.com/tm-538-digital-trend
 }
 @keyframes circel {
   0% {transform: rotate(0deg);}
-  50%{transform: rotate(60deg);}
+  15% {transform: rotate(30deg);}
+  25% {transform: rotate(0deg);}
+  35% {transform: rotate(30deg);}
+  45% {transform: rotate(0deg);}
   100% {
-    transform: rotate(0deg);
+    transform: rotate(30deg);
   }
   
 }
